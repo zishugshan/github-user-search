@@ -25,4 +25,7 @@ $(document).ready(function (){
         })
        
     }
+    searchBtn.addEventListner("click",function(){
+        searchUsers(username)
+    })
 })
